@@ -3,7 +3,7 @@ let button = document.querySelectorAll('button'); // select all button tags
 
 let string = "";    // this empty str variable store the ans
 let arr = Array.from(button)   //
-arr.forEach(button => {
+arr.forEach(button => { 
     button.addEventListener('click',(e) =>{
         
         if(e.target.innerHTML == '='){
