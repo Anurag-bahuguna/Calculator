@@ -1,4 +1,4 @@
-let input = document.getElementById('inputBox'); //select input box
+let input = document.getElementById('inputBox'); //select input box 
 let button = document.querySelectorAll('button'); // select all button tags
 
 let string = "";    // this empty str variable store the ans
